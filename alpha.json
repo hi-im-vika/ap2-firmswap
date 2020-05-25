@@ -1,0 +1,34 @@
+[{
+        "version": "1.14.1-alpha-oldBLE",
+        "key": {
+            "name": "ap2_c18_2d_key.bin",
+            "version": "2.14",
+            "sha": "a115ad3c0cd4459c8cecaed5ac13bd9801339ae6fbc5e69842b328f2c7f3b7dd"
+        },
+        "led": {
+            "name": "ap2_c18_2d_rgb.bin",
+            "version": "2.14",
+            "sha": "0698767d6c3f9fee6a02005741d0e933053be20882cc4ff81b0c2236c478e2a2"
+        },
+        "ble": {
+            "name": "ble-1.00.bin",
+            "version": "1.00",
+            "sha": "48389584acaecc90b7ae012760dc6048ee9eb72b254c4619461d2eaf672ea123"
+        },
+        "date": "Today",
+        "require": {
+            "obinskit": "1.1.0"
+        },
+        "warning": {
+            "en": [
+                "Only proceed if you know EXACTLY what you're doing. You could fuck up your AP2 real bad."
+            ]
+        },
+        "describe": {
+            "en": [
+                "Flashing custom combination of firmwares.",
+                "Change version numbers and SHA fields in JSON file to your liking."
+            ]
+        }
+    }
+]
